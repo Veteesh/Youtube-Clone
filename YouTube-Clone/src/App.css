@@ -1,0 +1,49 @@
+.navigation {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  margin-left:1500px ;
+}
+.navigation a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+.cellx{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+.Cellcls{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+#imgx{
+    height:200px ;
+    width: 400px;
+}
+#youtube {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+#logo {
+  height: 60px;
+  width: auto;
+}
+#youtube h1 {
+  font-size: 2rem;
+  color:black;
+}
+#youtube h1 span {
+  color: red; 
+}
+#input{
+  height: 30px;
+  width: 1000px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
